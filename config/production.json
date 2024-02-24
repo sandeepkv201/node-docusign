@@ -1,0 +1,6 @@
+{
+    "DocuSign": {
+        "integrationKey": "<-- Same Integration Key will be used as production once Go Live process is completed -->",
+        "accountId": "<-- Account ID of the person/organization who is using DocuSign -->"
+    }
+}

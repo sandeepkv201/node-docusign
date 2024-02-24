@@ -1,0 +1,22 @@
+{
+  "name": "docusign",
+  "version": "1.0.0",
+  "description": "DocuSign Signature API implementation in Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node index.js",
+    "start:prod": "cross-env NODE_ENV=production node index.js"
+  },
+  "keywords": [
+    "DocuSign"
+  ],
+  "author": "Sandeep Kumar Verma",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.10",
+    "docusign-esign": "^6.5.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
